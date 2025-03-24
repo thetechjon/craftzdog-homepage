@@ -32,13 +32,13 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hello, I&apos;m a tech enthusiast based in Greece!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Jon Don
           </Heading>
           <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         </Box>
@@ -59,7 +59,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/takuya.jpg"
+              src="/images/jon-don-asian.jpg"
               alt="Profile image"
               width="100"
               height="100"
@@ -73,7 +73,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
+          Jon is an tech enthusiast and a SAP Architect based in Athens with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
@@ -86,13 +86,13 @@ const Home = () => (
           channel called &quot;
           <Link
             as={NextLink}
-            href="https://www.youtube.com/devaslife"
+            href="https://www.youtube.com/@TechJonDon"
             passHref
             target="_blank"
           >
-            Dev as Life
+            Jon Don
           </Link>
-          &quot; has more than 100k subscribers.
+          &quot; always searching for my next todo.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
